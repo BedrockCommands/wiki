@@ -5,7 +5,7 @@ import{_ as o,I as a,m as c,p,a9 as i,E as t,M as d,N as n,q as e}from"./chunks/
 <span class="line"><span style="--shiki-dark:#CE9178;--shiki-light:#0000FF;">execute if block 0 0 0 fire run scoreboard players set .Weather wiki:q.is_raining 0</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-dark:#6A9955;--shiki-light:#008000;">## Maintain Fire</span></span>
-<span class="line"><span style="--shiki-dark:#6A9955;--shiki-light:#008000;">### Place new fire block at the coordinate for check, next game tick</span></span>
+<span class="line"><span style="--shiki-dark:#6A9955;--shiki-light:#008000;">### Place new fire block at the coordinate to check next game tick</span></span>
 <span class="line"><span style="--shiki-dark:#CE9178;--shiki-light:#0000FF;">setblock 0 0 0 fire</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-dark:#6A9955;--shiki-light:#008000;">## Your Commands Here (Examples):</span></span>
@@ -14,7 +14,7 @@ import{_ as o,I as a,m as c,p,a9 as i,E as t,M as d,N as n,q as e}from"./chunks/
 <span class="line"><span style="--shiki-dark:#6A9955;--shiki-light:#008000;">### Runs only once when the rain first starts</span></span>
 <span class="line"><span style="--shiki-dark:#CE9178;--shiki-light:#0000FF;">execute if score .Weather wiki:q.is_raining matches 1 run say It has started raining.</span></span>
 <span class="line"><span style="--shiki-dark:#6A9955;--shiki-light:#008000;">### Runs every tick when it is not raining</span></span>
-<span class="line"><span style="--shiki-dark:#CE9178;--shiki-light:#0000FF;">execute if score .Weather wiki:q.is_raining matches 0 run title @a actionbar It&#39;s not raining.</span></span>
+<span class="line"><span style="--shiki-dark:#CE9178;--shiki-light:#0000FF;">execute if score .Weather wiki:q.is_raining matches 0 run title @a actionbar It is not raining.</span></span>
 <span class="line"></span>
 <span class="line"><span style="--shiki-dark:#6A9955;--shiki-light:#008000;">## Update State</span></span>
 <span class="line"><span style="--shiki-dark:#6A9955;--shiki-light:#008000;">### Move from state 1 to state 2 to stop the &quot;once&quot; command from looping</span></span>
