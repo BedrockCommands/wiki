@@ -168,7 +168,7 @@ To access the raw Markdown source of any page (which is easier to process), tran
 
 - [Sphere Command](/commands/sphere-command)
 - [Compass Display](/commands/compass-display)
-- [Custom Crafter](/commands/custom-crafting)
+- [Custom Crafting](/commands/custom-crafting)
 - [Multiplayer Position Rearrangement](/commands/rearrange-positions)
 
 ## Concepts
@@ -210,16 +210,16 @@ To access the raw Markdown source of any page (which is easier to process), tran
 
 ### Tutorials
 
-- [Convert Points Between Any Space (World, Entity, Bones)](/entities/entity-transforms)
+- [Area Effect Clouds](/entities/area-effect-clouds)
+- [Coordinate Space Conversion](/entities/coordinate-space-conversion)
 - [Creating Boats](/entities/boat-entities)
 - [Detecting Other Entities](/entities/detecting-other-entities)
 - [Disabling Team Damage](/entities/disabling-team-damage)
 - [Dummy Entities](/entities/dummy-entities)
 - [Entity Attacks](/entities/entity-attack)
-- [Entity Holds Item](/entities/entity-holds-item)
 - [Entity Movement](/entities/entity-movement)
 - [Entity Timers](/entities/timers)
-- [Introduction to AOE Clouds](/entities/introduction-to-aec)
+- [Holding Items](/entities/holding-items)
 - [Invulnerable Entities](/entities/invulnerable-entities)
 - [Look at Entity](/entities/look-at-entity)
 - [Riding Flying Entities](/entities/flying-entities)
@@ -254,7 +254,7 @@ To access the raw Markdown source of any page (which is easier to process), tran
 - [Custom Armor](/items/custom-armor)
 - [Custom Food](/items/custom-food)
 - [Custom Pottery Sherds](/items/custom-pottery-sherds)
-- [Custom Weapons](/items/custom-weapon)
+- [Custom Weapons](/items/custom-weapons)
 - [Equipment-Based Commands](/items/equipped-item-commands)
 - [Spawning Items](/items/spawning-items)
 - [Throwable Items](/items/throwable)
@@ -330,7 +330,7 @@ To access the raw Markdown source of any page (which is easier to process), tran
 
 ### Tutorials
 
-- [Enabling Experiments by Editing NBT](/nbt/experimental-education-edition)
+- [Enabling Experiments by Editing NBT](/nbt/enabling-experiments)
 - [Extending Structure Limits](/nbt/structure-limits)
 
 ### NBT in Depth
@@ -367,9 +367,9 @@ To access the raw Markdown source of any page (which is easier to process), tran
 - [Custom Commands](/scripting/custom-commands)
 - [GameTests](/scripting/game-tests)
 - [Script Core Features](/scripting/script-server)
-- [Script Forms](/scripting/gametest-form)
 - [Script Privileges](/scripting/privileges)
 - [Script Requests API](/scripting/script-net)
+- [Server Forms](/scripting/server-forms)
 
 ### Documentation
 
@@ -417,7 +417,7 @@ To access the raw Markdown source of any page (which is easier to process), tran
 - [Material Creations](/visuals/material-creations)
 - [Materials](/visuals/materials)
 - [Math-Based Animations](/visuals/math-based-animations)
-- [Skin Packs](/visuals/custom-skin-packs)
+- [Skin Packs](/visuals/skin-packs)
 
 ### Tutorials
 
@@ -445,7 +445,7 @@ To access the raw Markdown source of any page (which is easier to process), tran
 ### Tutorials
 
 - [Block Conditions for Features](/world-generation/feature-block-conditions)
-- [Generating Custom Ores](/world-generation/custom-ores)
+- [Generating Custom Ores](/world-generation/generating-custom-ores)
 - [Generating Custom Structures](/world-generation/structure-features)
 - [Generating Patches](/world-generation/surface-builder)
 - [Heightmap Noise](/world-generation/heightmap-noise)
